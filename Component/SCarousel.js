@@ -3,6 +3,7 @@ import { StyleSheet, Text, View, Image, ImageBackground, TouchableOpacity, Keybo
 import { Container, Header, Content, Item, Input, Form, Label, NativeBaseProvider } from 'native-base';
 import { TextInput } from 'react-native-paper';
 import CCarousel from './CCarousel';
+import {windowHeight, windowWidth} from '../utils/Dimentions';
 
 export default function SCarousel() {
   return (
@@ -13,7 +14,7 @@ export default function SCarousel() {
         <View style={{ flexDirection: 'row', overflow: 'visible' }}>
 
           <View>
-            <View style={{ flex: 1, height: 350, width: 350, marginHorizontal: 10, paddingLeft: 20 }}>
+            <View style={{ flex: 1, height: 350, width: windowHeight/1.7, marginHorizontal: 10, paddingLeft: 20 }}>
               <View style={{ backgroundColor: "#eee", borderRadius: 14, alignItems: 'center', padding: 5, }}>
                 <View style={{ paddingHorizontal: 60 }}>
                   <Image source={require('../assets/s11.png')} />
@@ -29,7 +30,7 @@ export default function SCarousel() {
 
           <View>
             <View style={{ flex: 1, marginHorizontal: 10 }}>
-              <View style={{ backgroundColor: "#eee", width: 360, borderRadius: 14, alignItems: 'center', padding: 5, }}>
+              <View style={{ backgroundColor: "#eee", width: windowHeight/1.7, borderRadius: 14, alignItems: 'center', padding: 5, }}>
                 <View style={{ paddingHorizontal: 60 }} >
                   <Image source={require('../assets/s122.png')} style={{ marginVertical: 14 }} />
                 </View>
@@ -42,7 +43,7 @@ export default function SCarousel() {
           </View>
 
           <View>
-            <View style={{ flex: 1, height: 350, width: 350, marginHorizontal: 10 ,paddingRight:20}}>
+            <View style={{ flex: 1, height: 350, width: windowHeight/1.7, marginHorizontal: 10 ,paddingRight:20}}>
               <View style={{ backgroundColor: "#eee", borderRadius: 14, alignItems: 'center', padding: 5, }}>
                 <View style={{ paddingHorizontal: 60 }}>
                   <Image source={require('../assets/s13.png')} />

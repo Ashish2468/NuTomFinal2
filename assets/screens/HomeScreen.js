@@ -39,15 +39,13 @@ export default function HomeScreen({ navigation }) {
             <View style={{ alignItems: 'center', }}>
               <TouchableOpacity style={styles.button}
                 onPress={() => navigation.navigate('Components')}>
-                {/* // onPress={() => navigation.navigate('Dashscreen')}> */}
-                {/* <LinearGradient
+                <LinearGradient
               colors={["#FF512F", "#F09819", "#FF512F"]}
               start={[1, 1]}
-              style={styles.buttonContainer}> */}
+              style={styles.buttonContainer}>
                 <Text style={styles.Text}>Register Now!</Text>
-                {/* </LinearGradient> */}
+                </LinearGradient>
               </TouchableOpacity>
-              <Button  onPress={() => navigation.navigate('Dashscreen')}><Text>hiDashscreen </Text></Button>
             </View>
 
             {/* <LinearGradient colors={['#4c669f', '#3b5998', '#192f6a']} style={styles.linearGradient}>
