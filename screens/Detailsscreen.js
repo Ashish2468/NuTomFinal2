@@ -47,6 +47,7 @@ export default function Detailsscreen({ navigation }) {
             <View style={{ flex: 1 }}>
               <TouchableOpacity onPress={() => navigation.navigate('Formscreen')} >
                 {/* <Ionicons name="md-chevron-back" size={44} color="black" /> */}
+                {/* <Ionicons name="md-chevron-back" size={44} color="black" /> */}
                 <Text style={{ fontSize: 40, fontWeight: "bold", marginTop: "2%", color: "black" }}>{'<'}</Text>
               </TouchableOpacity>
             </View>
