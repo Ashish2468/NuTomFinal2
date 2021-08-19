@@ -22,7 +22,7 @@ export default function Formscreen({ navigation }) {
               <Text>Inside</Text>
               <View>
                 {/* <Item floatingLabel>  */}
-                <Input style={{ height: 50, marginVertical: 10 }} placeholder="Underline Textbox" />
+                <Input style={{ height: 50, marginVertical: 10 }} placeholder="Underlinedd Textbox" />
 
                 <TextInput
                   label="Email"
